@@ -18,7 +18,7 @@ pub fn next_pow2(n: usize) -> usize {
     two.pow(a).try_into().unwrap()
 }
 
-// pub use toeplitz::UpperToeplitz;
+pub use toeplitz::UpperToeplitz;
 
 // #[cfg(test)]
 // mod tests {
