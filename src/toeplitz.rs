@@ -1,5 +1,5 @@
 use ark_ff::{FftField, Zero};
-use ark_poly::{domain::DomainCoeff, univariate::DensePolynomial, Polynomial, UVPolynomial};
+use ark_poly::{univariate::DensePolynomial, DenseUVPolynomial, domain::DomainCoeff, Polynomial};
 
 use crate::{circulant::Circulant, is_pow_2, next_pow2};
 
